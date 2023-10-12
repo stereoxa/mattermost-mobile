@@ -1,4 +1,4 @@
-package com.mattermost.rnbeta;
+package com.mattermost.rn;
 
 import android.os.Bundle;
 

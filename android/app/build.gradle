@@ -99,7 +99,7 @@ def reactNativeArchitectures() {
 android {
     ndkVersion rootProject.ext.ndkVersion
     compileSdkVersion rootProject.ext.compileSdkVersion
-    namespace "com.mattermost.rnbeta"
+    namespace "com.mattermost.rn"
 
     lintOptions {
         checkReleaseBuilds false
@@ -107,7 +107,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.mattermost.rnbeta"
+        applicationId "com.mattermost.rn"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 489
